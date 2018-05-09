@@ -11,8 +11,8 @@ html, body, .capa {
 }
 
 body {
-	background: url('imagens/capa.png'),
-				url('imagens/ruido.png'),
+	background: url('imagens/capa2.png'),
+				url('imagens/ruido2.png'),
 				linear-gradient(50deg,#ff4169,#7c26f8);
 	background-attachment: fixed;
 	font-family: Helvetica,Arial,sans-serif;
@@ -24,7 +24,7 @@ body {
 	height: 40px;
 	width: 132px;
 	display: block;
-	background: url('imagens/spotify.svg') no-repeat;
+	background: url('imagens/cabecinha.png') no-repeat;
 	background-size: contain;
 	color: transparent;
 }
@@ -63,7 +63,7 @@ nav.navbar-transparente {
 
 .texto-capa {
 	text-align: center;
-	color: white;
+	color: black;
 	display: table-cell;
 	vertical-align: middle;
 }
@@ -79,10 +79,12 @@ nav.navbar-transparente {
 }
 
 .btn-roxo {
-	background: #7c25f8;
+	background: #BC212A;
+	color: black;
+	font-weight: 500;
 }
 .btn-roxo:hover {
-	background-color: #6207e3;
+	background-color: #85050E;
 	color: white;
 }
 
